@@ -1,0 +1,154 @@
+body{
+    background-color: #5e5eeb4d;
+}
+
+.container {
+    width: 98%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+    border-radius: 30px;
+    background-color: #8888ee62;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    background-color: white;
+    height: 90px;
+    border-radius: 30px;
+    background-color: #8888ee62;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+.cx1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cx2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cx3{
+    display: flex;
+    justify-content: center;
+}
+
+.cx4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 80%;
+    flex-direction: column;
+}
+
+.input-group input, select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.input-group label{
+    border-radius: 20px;
+    
+}
+
+.login-button input{
+    height: 60px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: #3030dd62;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+
+.login-button .input:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-button .input a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form login-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.posicionar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    height: 100px;
+
+}
+
+.voltar-button button{
+    height: 60px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: #3030dd62;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+
+.voltar-button .button:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.voltar-button a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+.voltar-button .button:hover a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.form input, select{
+    border-radius: 20px;
+    text-decoration: none;
+    border-color: #3030dd62;
+    height: 30px;
+    width: 300px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

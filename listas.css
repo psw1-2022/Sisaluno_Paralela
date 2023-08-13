@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid;
+
+  }
+
+  th, td{
+    background-color: #37379e62;
+    
+
+  }
+
+  body{
+
+    background: #5e5eeb4d;
+}
